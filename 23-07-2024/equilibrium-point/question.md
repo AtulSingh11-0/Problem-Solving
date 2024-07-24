@@ -1,4 +1,4 @@
-# First Equilibrium Point in Array
+# Equilibrium Point
 
 ## Problem Statement
 

@@ -1,4 +1,4 @@
-# Highest and Lowest Frequency Elements in an Array
+# Count frequency of each element in the array
 
 ## Problem Statement
 

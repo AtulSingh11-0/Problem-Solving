@@ -1,4 +1,4 @@
-# Palindrome Check
+# Check if the given string is palindrome or not using recursion
 
 ## Problem Statement
 
