@@ -1,4 +1,4 @@
-# Counting Occurrences of Elements in an Array
+# Find the highest/lowest frequency element
 
 ## Problem Statement
 
