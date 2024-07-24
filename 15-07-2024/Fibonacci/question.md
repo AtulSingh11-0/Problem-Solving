@@ -1,4 +1,4 @@
-# Fibonacci Series
+# Print Fibonacci Series up to Nth term
 
 ## Problem Statement
 
