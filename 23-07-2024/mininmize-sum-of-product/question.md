@@ -1,4 +1,4 @@
-# Minimum Sum of Product
+# Minimize the Sum of Product
 
 ## Problem Statement
 
