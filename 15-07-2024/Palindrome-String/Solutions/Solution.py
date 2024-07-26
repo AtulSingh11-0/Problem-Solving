@@ -17,7 +17,7 @@ class Solution:
                 return False
         return True
 
-# Alternative Solution
+# Alternative Solution 
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         string = ''
