@@ -16,3 +16,14 @@ class Solution:
             else:
                 return False
         return True
+
+# Alternative Solution
+class Solution:
+    def isPalindrome(self, s: str) -> bool:
+        string = ''
+        for char in s:
+            if char.lower().isalpha() or char.lower().isdigit():
+                string += char.lower()
+        print(string)
+        
+        return string == string[::-1]
