@@ -1,4 +1,6 @@
 class Solution {
+
+    // optimized : atul
   public static ArrayList<Integer> subarraySum(int[] arr, int n, int s) {
       // code here
       
@@ -25,4 +27,37 @@ class Solution {
       
       return list;
   }
-}
+
+    // optimized : soumyadeep
+  static ArrayList<Integer> subarraySum(int[] arr, int n, int s) 
+    {
+     int start=0;
+     int end=0;
+     int ans=arr[0];
+     ArrayList<Integer>sd= new ArrayList<>();
+     if(ans==s){
+     sd.add(start+1);
+     sd.add(end+1);
+         return sd;
+     }
+    
+     while(end<n-1){
+         if(ans+arr[end+1]<=s){
+             ans=ans+arr[end+1];
+             end++;
+         }
+         else{
+             ans=ans-arr[start];
+             start++;
+         }
+          if(ans==s&&start<=end){
+     sd.add(start+1);
+     sd.add(end+1);
+         return sd;
+     }
+         
+     }
+        sd.add(-1);
+       return sd;
+    }
+} 
