@@ -1,4 +1,6 @@
 class Solution {
+
+  // optimized : atul
   static int longestSubstrDistinctChars(String S){
     // code here
     Set<Character> set = new HashSet<>();

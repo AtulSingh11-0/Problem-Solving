@@ -1,6 +1,7 @@
 class Solution
 {
     //Function to check if brackets are balanced or not.
+    // optimized : atul
     static boolean ispar(String x)
     {
         // add your code here
