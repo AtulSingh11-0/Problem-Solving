@@ -20,4 +20,32 @@ class Solution {
     
       return max;
   }
+
+  // optimized : soumyadeep
+  static int longestSubstrDistinctChars(String S){
+    // code here
+    HashMap<Character,Integer>map = new HashMap<>();
+    char []arr=S.toCharArray();
+    int c=0,max=0;
+    for(int i=0;i<arr.length;i++)
+    {
+         if(map.containsKey(arr[i]))
+        {
+              
+            c=0;
+            i=map.get(arr[i]);
+            map.clear();
+            
+        }
+        else
+        {
+            map.put(arr[i],i);
+            c++;
+            max=Math.max(max,c);
+        }
+    }
+    
+    
+    return max;
+}
 }
