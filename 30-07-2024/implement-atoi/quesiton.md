@@ -1,0 +1,57 @@
+# Implement Atoi
+
+## Problem Statement
+
+Given a string `s`, the objective is to convert it into integer format without utilizing any built-in functions. If the conversion is not feasible, the function should return `-1`.
+
+**Note:** Conversion is feasible only if all characters in the string are numeric or if its first character is `'-'` and the rest are numeric.
+
+## Examples
+
+### Example 1
+
+**Input:**
+
+```text
+s = "-123"
+```
+
+**Output:**
+
+```text
+-123
+```
+
+**Explanation:**
+
+It is possible to convert `-123` into an integer and is so returned in the form of an integer.
+
+### Example 2
+
+**Input:**
+
+```text
+s = "21a"
+```
+
+**Output:**
+
+```text
+-1
+```
+
+**Explanation:**
+
+The output is `-1` as, due to the inclusion of `'a'`, the given string cannot be converted to an integer.
+
+## Expected Time Complexity
+
+- \( O(|s|) \)
+
+## Expected Auxiliary Space
+
+- \( O(1) \)
+
+## Constraints
+
+- \( 1 \leq |s| \leq 10 \)
